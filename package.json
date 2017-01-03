@@ -1,0 +1,18 @@
+{
+  "name": "node-app-with-express-routing-and-ejs",
+  "version": "1.0.0",
+  "description": "this is node app with express routing and express-ejs-layouts. We are storing data in file.",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "keywords": ["node","express", "express-routing","express-ejs-layouts","ejs"],
+  "author": "virender nerha",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
