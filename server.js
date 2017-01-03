@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 app.use(expressLayouts);
 
 //use bodyParser
-app.use(bodyParser.urlencoded());
+app.use(bodyParser.urlencoded({extended: true}));
 //routes our app
 var router = require('./app/routes');
 app.use('/',router);
